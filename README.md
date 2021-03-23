@@ -11,7 +11,7 @@ You can also [download a copy as a PDF](https://yourdomain.com/book-name/book-na
 
 - Fork.
 - Go to https://github.com/settings/tokens/new and create a new token. Put some note so you can remember, and in the next screen you **have** to use the name `GITBOOK_ACTION_TOKEN`.
-- Make your edits.
+- Make your edits. **Note:** if you make your edits directly from GitHub, the build won't trigger. You'll have to manually trigger it from the "Actions" tab.
 - After the build ends, go to "Settings -> Options -> GitHub Pages". select the "gh-pages" branch, other settings, and publish your website. It should actually be all set by default.
 
 ## Header 2
