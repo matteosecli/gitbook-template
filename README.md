@@ -4,7 +4,7 @@ Write some introduction...
 
 {% hint style='working' %}
 You can contribute to this book by opening a pull request on [GitHub](https://github.com/yourname/yourrepo).
-You can also [download a copy as a PDF](https://yourdomain.com/book-name.pdf).
+You can also [download a copy as a PDF](https://yourdomain.com/book-name/book-name.pdf).
 {% endhint %}
 
 ## HOW TO USE THIS TEMPLATE
