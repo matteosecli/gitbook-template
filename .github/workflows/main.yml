@@ -21,6 +21,7 @@ jobs:
         #publish_commit_message: ${{ github.event.head_commit.message }}
         #publish_branch: gh-pages
         #publish_dir: docs
+        font_install: sudo apt-get install ttf-mscorefonts-installer
         gitbook_pdf: true
         #gitbook_pdf_dir: downloads
         gitbook_pdf_name: book-name
