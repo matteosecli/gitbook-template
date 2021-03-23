@@ -1,0 +1,16 @@
+{
+    "title": "Your Title Here",
+    "description": "What's this book for?",
+    "author": "Your Name",
+    "plugins": ["replace", "hints", "term", "include-codeblock", "ace"],
+    "pluginsConfig": {
+         "include-codeblock": {
+             "fixlang": true
+         },
+         "replace": {
+             "substitutes": [
+                 {"pattern": "«domainemail:([^`^»]+)»", "flags": "g", "substitute": "[$1](mailto:$1.domain.com)"}
+             ]
+         }
+    }
+}
