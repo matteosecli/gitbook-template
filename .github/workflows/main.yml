@@ -23,5 +23,5 @@ jobs:
         #publish_dir: docs
         font_install: sudo apt-get install ttf-mscorefonts-installer
         gitbook_pdf: true
-        #gitbook_pdf_dir: downloads
+        gitbook_pdf_dir: book-name
         gitbook_pdf_name: book-name
